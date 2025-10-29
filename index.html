@@ -1,83 +1,167 @@
 <!doctype html>
-<html lang="de">
+<html lang="de" data-theme="auto">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Nicht in Google anzeigen -->
   <meta name="robots" content="noindex, nofollow">
-  <title>Bewerbung – Tom Hillen</title>
-  <meta name="description" content="Bewerbung und Lebenslauf von Tom Hillen (Fachinformatiker Anwendungsentwicklung).">
+  <title>Praktikumsbewerbung – Tom Hillen</title>
+  <meta name="description" content="Praktikumsbewerbung von Tom Hillen (Anwendungsentwicklung) mit Lebenslauf, kurzem Anschreiben und Download-Optionen.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Topbar mit Download-Sprung + Theme-Toggle -->
+  <div class="topbar">
+    <div class="container">
+      <span>Hier finden Sie mein kurzes Anschreiben & meinen Lebenslauf.</span>
+      <div class="topbar-actions">
+        <a class="topbar-link" href="#downloads">Direkt zu den Downloads</a>
+        <button id="themeToggle" class="icon-btn" aria-label="Theme umschalten" title="Theme umschalten">🌙</button>
+      </div>
+    </div>
+  </div>
+
   <header class="site-header">
     <div class="container hero">
-      <picture>
-        <!-- Falls du später ein echtes Foto hast, lege es als assets/profilfoto.jpg ab -->
-        <img
-          class="avatar"
-          alt="Profilfoto von Tom Hillen"
-          src="assets/profilfoto.jpg"
-          onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?><svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;256&quot; height=&quot;256&quot; viewBox=&quot;0 0 256 256&quot;><defs><linearGradient id=&quot;g&quot; x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;1&quot; y2=&quot;1&quot;><stop offset=&quot;0%&quot; stop-color=&quot;%232563eb&quot;/><stop offset=&quot;100%&quot; stop-color=&quot;%235aa7ff&quot;/></linearGradient></defs><rect width=&quot;256&quot; height=&quot;256&quot; rx=&quot;128&quot; fill=&quot;url(%23g)&quot;/><text x=&quot;50%&quot; y=&quot;54%&quot; text-anchor=&quot;middle&quot; font-family=&quot;Segoe UI, Roboto, Arial, sans-serif&quot; font-size=&quot;96&quot; fill=&quot;white&quot; font-weight=&quot;700&quot;>TH</text></svg>';"
-        />
-      </picture>
+      <img class="avatar" alt="Profilfoto von Tom Hillen"
+           src="assets/profilfoto.jpg"
+           onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?><svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;256&quot; height=&quot;256&quot; viewBox=&quot;0 0 256 256&quot;><defs><linearGradient id=&quot;g&quot; x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;1&quot; y2=&quot;1&quot;><stop offset=&quot;0%&quot; stop-color=&quot;%232563eb&quot;/><stop offset=&quot;100%&quot; stop-color=&quot;%235aa7ff&quot;/></linearGradient></defs><rect width=&quot;256&quot; height=&quot;256&quot; rx=&quot;128&quot; fill=&quot;url(%23g)&quot;/><text x=&quot;50%&quot; y=&quot;54%&quot; text-anchor=&quot;middle&quot; font-family=&quot;Segoe UI, Roboto, Arial, sans-serif&quot; font-size=&quot;96&quot; fill=&quot;white&quot; font-weight=&quot;700&quot;>TH</text></svg>';">
       <div class="hero-text">
         <h1>Tom Hillen</h1>
-        <p class="subtitle">Bewerbung – Fachinformatiker (Anwendungsentwicklung)</p>
+        <p class="subtitle">Praktikum – Fachinformatik (Anwendungsentwicklung)</p>
         <ul class="tags">
-          <li>Python & PySide6</li>
-          <li>Modulare Architektur</li>
-          <li>SEO-/SaaS-Projekte</li>
+          <li>Python</li><li>Struktur & Architektur</li><li>SEO-/SaaS-Projekte</li>
         </ul>
       </div>
     </div>
   </header>
 
   <main class="container">
-    <section class="card">
-      <h2>Kurzes Anschreiben</h2>
+    <!-- Willkommens-Intro -->
+    <section class="card reveal">
+      <p class="intro">
+        👋 Willkommen auf meiner Bewerbungsseite! Hier finden Sie mein kurzes Anschreiben, meinen Lebenslauf
+        und kompakte Infos zu mir. Danke für Ihre Zeit.
+      </p>
+    </section>
+
+    <!-- Kurzes Anschreiben (ohne Überschrift) -->
+    <section class="card reveal">
       <p>
-        Guten Tag,<br>
-        vielen Dank für die Möglichkeit, mich vorzustellen. Auf dieser Seite finden Sie mein Anschreiben
-        sowie meinen Lebenslauf. Ich freue mich über die Gelegenheit, meine Motivation und
-        Lernbereitschaft in einem persönlichen Gespräch zu zeigen.
+        Sehr geehrte Damen und Herren,<br>
+        ich interessiere mich für ein Praktikum im Bereich Anwendungsentwicklung. Privat sammle ich
+        bereits Erfahrung mit Python und eigenen Softwareprojekten (u. a. ein SEO-Tool). Mich reizt die
+        Verbindung aus logischem Denken und praktischer Umsetzung – gern möchte ich Einblicke in Ihre
+        Entwicklungsprozesse gewinnen und aktiv mitarbeiten.
+      </p>
+      <p>
+        Ich gelte als motiviert, lernbereit und teamfähig. Über die Möglichkeit, Ihr Unternehmen
+        kennenzulernen, freue ich mich sehr.
       </p>
       <p class="signature">Mit freundlichen Grüßen<br>Tom Hillen</p>
     </section>
 
-    <section class="grid">
-      <article class="card">
-        <h2>Anschreiben (PDF)</h2>
-        <div class="pdf-wrap">
-          <object data="anschreiben.pdf" type="application/pdf" aria-label="Anschreiben PDF">
-            <p>Ihr Browser kann die PDF-Vorschau nicht anzeigen.
-              <a class="button" href="anschreiben.pdf" target="_blank" rel="noopener">Anschreiben öffnen</a>
-            </p>
-          </object>
-        </div>
-        <div class="actions">
-          <a class="button" href="anschreiben.pdf" target="_blank" rel="noopener">In neuem Tab</a>
-          <a class="button outline" href="anschreiben.pdf" download>Herunterladen</a>
-        </div>
-      </article>
+    <!-- Über mich + Sprachen-Graph -->
+    <section class="card reveal">
+      <h2>Über mich</h2>
+      <div class="about-grid">
+        <ul class="list">
+          <li><strong>Stärken:</strong> strukturiert, pragmatisch, zuverlässig, lernbereit</li>
+          <li><strong>Tech:</strong> Python, Git, Dateiverarbeitung (CSV/Parser), kleine UIs</li>
+          <li><strong>Arbeitsweise:</strong> produktiv mit <abbr title="Künstliche Intelligenz">KI</abbr>-Unterstützung
+            (Prompting, Pair-Programming, Code-Review & Debugging)</li>
+          <li><strong>Interessen:</strong> Software bauen, Technik, Gaming, Fitness</li>
+        </ul>
 
-      <article class="card">
-        <h2>Lebenslauf (PDF)</h2>
-        <div class="pdf-wrap">
-          <object data="lebenslauf.pdf" type="application/pdf" aria-label="Lebenslauf PDF">
-            <p>Ihr Browser kann die PDF-Vorschau nicht anzeigen.
-              <a class="button" href="lebenslauf.pdf" target="_blank" rel="noopener">Lebenslauf öffnen</a>
-            </p>
-          </object>
+        <div class="langs">
+          <div class="lang-row">
+            <div class="lang-label"><span>Deutsch</span><span class="badge">Muttersprache</span></div>
+            <div class="meter" data-level="100"><span></span></div>
+          </div>
+          <div class="lang-row">
+            <div class="lang-label"><span>Englisch</span><span class="badge">C1</span></div>
+            <div class="meter" data-level="85"><span></span></div>
+          </div>
         </div>
-        <div class="actions">
-          <a class="button" href="lebenslauf.pdf" target="_blank" rel="noopener">In neuem Tab</a>
-          <a class="button outline" href="lebenslauf.pdf" download>Herunterladen</a>
-        </div>
-      </article>
+      </div>
     </section>
 
-    <section class="card">
+    <!-- Was ich suche -->
+    <section class="card reveal">
+      <h2>Was ich suche</h2>
+      <p>
+        Ich suche ein Praktikum im Bereich <strong>Anwendungsentwicklung</strong>, um moderne und für meine berufliche Zukunft
+        relevante Technologien und Arbeitsweisen kennenzulernen – z. B. saubere Software-Architektur, Testing,
+        Versionsverwaltung und den sinnvollen Einsatz von <strong>KI-Tools</strong> in realen Projekten.
+      </p>
+    </section>
+
+    <!-- Lebenslauf-Vorschau -->
+    <section class="card reveal">
+      <h2>Lebenslauf (Vorschau)</h2>
+      <div class="pdf-wrap">
+        <object data="lebenslauf.pdf" type="application/pdf" aria-label="Lebenslauf PDF">
+          <p>Vorschau nicht verfügbar. <a class="button" href="lebenslauf.pdf" target="_blank" rel="noopener">Lebenslauf öffnen</a></p>
+        </object>
+      </div>
+    </section>
+
+    <!-- Downloads direkt darunter -->
+    <section id="downloads" class="card reveal">
+      <h2>Downloads</h2>
+      <div class="download-grid">
+        <div class="dl-card">
+          <h3>Lebenslauf</h3>
+          <div class="actions">
+            <a class="button" href="lebenslauf.pdf" download>PDF herunterladen</a>
+            <a class="button outline optional optional-lv-jpg" href="lebenslauf.jpg" download>JPG herunterladen</a>
+          </div>
+        </div>
+
+        <div class="dl-card optional-as-group">
+          <h3>Kurzes Anschreiben</h3>
+          <div class="actions">
+            <a class="button" href="anschreiben.pdf" download>PDF herunterladen</a>
+            <a class="button outline optional optional-as-jpg" href="anschreiben.jpg" download>JPG herunterladen</a>
+          </div>
+        </div>
+
+        <div class="dl-card optional-zip">
+          <h3>Gesamtpaket</h3>
+          <div class="actions">
+            <a class="button outline" href="bewerbung_tomhillen.zip" download>Alle Unterlagen (.zip)</a>
+          </div>
+        </div>
+      </div>
+      <p class="muted small">Hinweis: PDFs lassen sich auch im neuen Tab öffnen.</p>
+    </section>
+
+    <!-- Anschreiben-Vorschau (optional) -->
+    <section class="card optional-as-group reveal">
+      <h2>Anschreiben (Vorschau)</h2>
+      <div class="pdf-wrap">
+        <object data="anschreiben.pdf" type="application/pdf" aria-label="Anschreiben PDF">
+          <p>Vorschau nicht verfügbar. <a class="button" href="anschreiben.pdf" target="_blank" rel="noopener">Anschreiben öffnen</a></p>
+        </object>
+      </div>
+    </section>
+
+    <!-- Projekte (optional, erscheint erst bei assets/projekt1.jpg) -->
+    <section class="card optional-projects hidden reveal">
+      <h2>Projekte</h2>
+      <div class="grid">
+        <figure class="project">
+          <img src="assets/projekt1.jpg" alt="Projekt 1 Screenshot">
+          <figcaption><strong>SEO Meta Daten Generator</strong> – Python / Desktop</figcaption>
+        </figure>
+        <figure class="project">
+          <img src="assets/projekt2.jpg" alt="Projekt 2 Screenshot">
+          <figcaption><strong>PitchBot</strong> – Text-Generator lokal</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="card reveal">
       <h2>Kontakt</h2>
       <ul class="contact">
         <li><strong>E-Mail:</strong> <a href="mailto:tomhillen105@gmail.com">tomhillen105@gmail.com</a></li>
@@ -89,12 +173,76 @@
 
   <footer class="site-footer">
     <div class="container">
-      <small>© <span id="y"></span> Tom Hillen · Diese Seite ist bewusst nicht indexierbar.</small>
+      <small>© <span id="y"></span> Tom Hillen · Seite bewusst nicht indexierbar.</small>
     </div>
   </footer>
 
   <script>
+    // Jahr
     document.getElementById('y').textContent = new Date().getFullYear();
+
+    // -------- Optional-Dateien anzeigen, wenn vorhanden
+    async function showIfExists(selector, url){
+      try{
+        const res = await fetch(url,{method:'HEAD'});
+        const ok = res.ok;
+        document.querySelectorAll(selector).forEach(el => el.classList.toggle('hidden', !ok));
+      }catch(e){
+        document.querySelectorAll(selector).forEach(el => el.classList.add('hidden'));
+      }
+    }
+    // JPG/ZIP/Anschreiben prüfen
+    document.querySelectorAll('.optional,.optional-zip,.optional-as-group').forEach(el=>el.classList.add('hidden'));
+    showIfExists('.optional-lv-jpg','lebenslauf.jpg');
+    showIfExists('.optional-as-jpg','anschreiben.jpg');
+    showIfExists('.optional-zip','bewerbung_tomhillen.zip');
+    (async()=>{
+      try{
+        const r=await fetch('anschreiben.pdf',{method:'HEAD'});
+        document.querySelectorAll('.optional-as-group').forEach(el=>el.classList.toggle('hidden', !r.ok));
+      }catch(e){
+        document.querySelectorAll('.optional-as-group').forEach(el=>el.classList.add('hidden'));
+      }
+    })();
+    // Projekte (sichtbar wenn mind. projekt1 existiert)
+    showIfExists('.optional-projects','assets/projekt1.jpg');
+
+    // -------- Theme Toggle (auto / dark / light)
+    (function(){
+      const root = document.documentElement;
+      const btn  = document.getElementById('themeToggle');
+      const saved = localStorage.getItem('theme');
+      if(saved){ root.setAttribute('data-theme', saved); }
+      updateIcon();
+
+      btn.addEventListener('click', ()=>{
+        const cur = root.getAttribute('data-theme') || 'auto';
+        const next = cur === 'dark' ? 'light' : cur === 'light' ? 'auto' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        updateIcon();
+      });
+      function updateIcon(){
+        const mode = root.getAttribute('data-theme') || 'auto';
+        btn.textContent = mode === 'dark' ? '🌙' : mode === 'light' ? '☀️' : '🌓';
+      }
+    })();
+
+    // -------- Scroll-Reveal + Sprachbalken animieren
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('in');
+          // Language meters füllen
+          entry.target.querySelectorAll('.meter').forEach(m=>{
+            const lvl = Math.max(0, Math.min(100, parseInt(m.dataset.level||'0',10)));
+            m.querySelector('span').style.width = lvl + '%';
+          });
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
   </script>
 </body>
 </html>
